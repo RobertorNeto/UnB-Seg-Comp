@@ -1,5 +1,0 @@
-# Dependências OPCIONAIS, usadas apenas no teste adicional de interoperabilidade
-# (tests/test_interop.py). A implementação em rsaseg/ não depende de nada além
-# da biblioteca padrão do Python (hashlib para SHA3-256, secrets para aleatoriedade).
-cryptography>=41
-pycryptodome>=3.18
