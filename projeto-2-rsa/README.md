@@ -12,6 +12,15 @@ Implementação em **Python 3.8+** (sem OpenSSL e sem dependências externas) de
 
 Profa. Priscila Solís Barreto — Departamento de Ciência da Computação, UnB
 
+## Versão em arquivo único (para a apresentação)
+
+[`rsa_assinatura.py`](rsa_assinatura.py) reúne todo o sistema em um só arquivo, com seções numeradas na ordem do enunciado (aritmética, Miller-Rabin, chaves, SHA3/MGF1, RSA básico, OAEP, PSS, arquivo `.sig`, demonstração e CLI). Os formatos de chave e de assinatura são os mesmos do pacote `rsaseg/`.
+
+```bash
+python3 rsa_assinatura.py demo        # Partes I a V, incluindo os testes (a), (b) e (c)
+python3 rsa_assinatura.py --help      # comandos: gerar-chaves, cifrar, decifrar, assinar, verificar
+```
+
 ## Estrutura
 
 ```
@@ -28,6 +37,7 @@ rsaseg/
 tests/                   63 testes unitários (unittest)
 docs/analise_seguranca.md   Parte V
 docs/formatos.md            formatos de chave, texto cifrado e assinatura
+rsa_assinatura.py        versão em arquivo único (apresentação)
 demo.py                  roteiro de demonstração para a apresentação
 exemplos/                arquivo de exemplo
 relatorio.pdf            relatório técnico
