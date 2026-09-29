@@ -44,3 +44,9 @@ python3 vigenere.py atacar -a exemplos/criptograma_en.txt   # → CRYPTO
 * Acentos normalizados para a letra base antes de cifrar (á→a, ç→c…).
 * Espaços, números e pontuação **não são cifrados** e passam intactos (a criptoanálise os ignora).
 * A chave deve conter ao menos uma letra.
+
+---
+
+## Projeto 2 — Assinatura Digital com RSA-OAEP e RSA-PSS
+
+Implementação, relatório e apresentação em [`projeto-2-rsa/`](projeto-2-rsa/).
